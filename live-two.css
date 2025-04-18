@@ -1,0 +1,78 @@
+body{
+ 
+    width: 40%;
+   
+   }
+   #three-men{
+     width: 248%;
+     height: 100%;
+     filter:brightness(0.6);
+    
+   }
+   .texts{
+     margin-top: -75%;
+     position: absolute;
+     margin-left: 40%;
+     color: white;
+     text-align: center;
+     font-size: 30px;
+   }
+   .navbar {
+       padding-top: 20px;
+       padding-bottom: 20px;
+       border-radius: 40px;
+       margin-bottom: 55px;
+       margin-left:390px;
+       background-color:black;
+       position: fixed;
+       bottom: 0;
+       width: 40%;
+       padding-left: 80px;
+      
+      
+       }
+       
+       #menu-bar{
+         margin-left: -50%;
+       }
+       .navbar a {
+         float: left;
+         display: block;
+         color: #f2f2f2;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         font-size: 17px;
+     
+       }
+      
+       .navbar a:hover{
+         background: transparent;
+         background:rgb(48, 45, 45);
+         border-radius: 30px;
+       }
+       
+       .navbar a.active {
+         background-color: #04AA6D;
+         color: white;
+       }
+       #reserve {
+         background-color: rgb(117, 113, 113);
+         border-radius: 30px;
+         padding: 20px 20px 20px 20px; 
+       }
+       
+       #reserve a:hover{
+         background-color: black;
+       }
+      
+  #whatsapp {
+    position:fixed;
+    background-color: rgb(15, 14, 14);
+    border-radius: 80px;
+    padding: 30px;
+    margin-top: 400px;
+    margin-left: 135%;
+    bottom: 4%;
+    right: 3%;
+  }

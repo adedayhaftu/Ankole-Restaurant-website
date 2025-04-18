@@ -1,0 +1,247 @@
+body{
+  margin: auto; 
+  overflow: hidden; 
+}
+#reservation-image{
+  height: 100vh;
+  width: 50%;
+  filter: brightness(0.5);
+  position: absolute;
+  z-index: -1;
+}
+
+.right-text{
+/* margin-top: -50%; */
+width: 50%;
+height: 100vh;
+/* position: absolute; */
+/* margin-left: 10%; */
+line-height: 10px;
+align-items: center;
+text-align: center;
+padding: 2% 0;
+p{
+  color: white;
+  /* margin-left: 205px; */
+  font-size: 35px;
+  /* margin-top: 150px; */
+}
+h1{
+  color: rgb(222, 28, 28);
+  font-size: 50px;
+  /* margin-left: 80px; */
+  margin-top: 70px;
+}
+}
+#reservation-logo{
+  width: 200px;
+  margin-bottom: 190px;
+  /* margin-top: 30px; */
+  /* margin-left:160px; */
+}
+.both{
+  display: flex;
+  width: 100%;
+ 
+}
+.box{
+  padding: 2.5%;
+  padding-bottom:4% ;
+  border: 1px solid rgb(32, 31, 31);
+  width: 77%;
+  box-shadow: 0px 9px #0E0E0E;
+}
+.form{
+  padding-left: 2%;
+  width: 50%;
+  background-color: black;
+  /* overflow:hidden; */
+  /* overflow-y: scroll; */
+  label{
+      color: white;
+  }
+   
+}
+label{
+    margin-bottom: 2%;
+}
+input{
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color-scheme: dark;
+    height: 57px;
+    width :680px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(71, 68, 68);
+}
+#inputClickable:focus{
+    outline: 1px solid rgb(43, 211, 43);
+}
+.options a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+ }
+ .optionsMenu{
+    a:hover{
+        color: gray ;
+ }
+    left: 22%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    border: none;
+    text-align: center;
+    bottom: 3%;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    i{
+       color: gray;
+    }
+    display: flex;
+    gap: 3.2%;
+    width: 41%;
+    border: solid black 1px;
+    height: 79px;
+    color: black;
+    border-radius: 39px;
+    justify-content: center;
+    background-color: rgb(14, 13, 13);
+  a{
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+  }
+}
+.reserve{
+    font-size: 17px;
+    color: white;
+text-align: center;
+background-color:grey ;
+border: 37px;
+border-radius: 24px;
+width: 140px;
+height: 49px;
+}
+.reserve:hover{
+background-color: white;
+border-radius: 24px;
+color: black;
+}
+.submit
+{
+    font-size: 20px;
+    color-scheme: dark;
+    height: 80px;
+    width :688px;
+    border-radius: 21px;
+    background-color:  rgb(231, 192, 120);
+    color: black;
+    border: 1px solid rgb(212, 160, 62);
+}
+.submit:hover{
+    background-color: rgb(151, 129, 104);
+    border-radius: 24px;
+    color: white;
+      margin-left: 51%;
+  /* padding-left: 2%; */
+  width: 100vh;
+  overflow:hidden;
+  /* overflow-y: scroll; */
+  label{
+      color: white;
+  }
+  padding-top: 8%;
+  width: 50%;
+   background-color: black;
+}
+label{
+  margin-bottom: 2%;
+}
+input{
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color-scheme: dark;
+  height: 57px;
+  width :680px;
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(71, 68, 68);
+}
+#inputClickable:focus{
+  outline: 1px solid rgb(43, 211, 43);
+}
+.submit
+{
+  font-size: 20px;
+  color-scheme: dark;
+  height: 80px;
+  width :688px;
+  border-radius: 21px;
+  background-color:  rgb(231, 192, 120);
+  color: black;
+  border: 1px solid rgb(212, 160, 62);
+}
+.submit:hover{
+  background-color: rgb(151, 129, 104);
+  border-radius: 24px;
+  color: white;
+  }
+.navbar {
+    background-color: rgb(15, 14, 14);
+    position: fixed;
+    bottom: 0;
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    margin-bottom: 35px;
+    margin-left: 28%;
+  
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  
+  }
+  
+  #reserve {
+    background-color: rgb(117, 113, 113);
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  #reserve a:hover {
+    color: black;
+  }
+  
+  .navbar a:hover {
+    background: transparent;
+    background: rgb(48, 45, 45);
+    border-radius: 30px;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  #whatsapp {
+    position:absolute;
+    background-color: rgb(15, 14, 14);
+    border-radius: 80px;
+    padding: 30px;
+    margin-top: 400px;
+    margin-left: 135%;
+    bottom: 4%;
+    right: 3%;
+  }

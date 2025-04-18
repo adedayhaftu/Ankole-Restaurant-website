@@ -1,0 +1,135 @@
+body{
+    overflow: hidden;
+}
+.social-media{
+  width: 5%;
+  display: flex;
+  margin-left: 90%;
+  right: 1%;
+  top: 4%;
+  gap: 20%;
+  z-index: 10;
+  position: absolute;
+  a{
+      text-decoration: none;
+      color:gray;
+      cursor: pointer;
+  }
+}
+#media{
+  font-size: 13px;
+  padding: 10px;
+  display: flex;
+  color:gray;
+  border: 1px solid gray;
+  border-radius: 50%;
+ 
+ 
+}
+.kitisiru-contacts{
+    color: white;
+    padding-left: 27%;
+    margin-top: 343px;
+   width: 50%;
+   position: absolute;
+   
+}
+.text-kitisuru{
+    border: solid 1px  rgb(173, 158, 158);
+    width: 350px;
+    padding-left: 40px;
+}
+.kilimani-contacts{
+  position: absolute;
+  left: 50%;
+  width: 50%;
+    background-size: cover;
+    /* height: 350px; */
+    color:white;
+    width: 450px;
+    margin-top: 343px;
+    line-height: 17px;
+    h1{
+      margin-bottom: 50px;
+    }
+}
+.text-kilimani{
+    border: solid 1px rgb(173, 158, 158);
+    
+    padding-left: 40px;
+}
+.both-contacts{
+  position: relative;
+    display: flex;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(Images/anokle\ second-home1.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 950px;
+width: 100%;
+    font-size: 20px;
+}
+#contacts-logo{
+    margin-left: 790px;
+    width: 220px;
+    margin-top: -580px;
+    /* text-align: center; */
+    /* margin-bottom: 90px; */
+}
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    margin-bottom: 55px;
+    margin-left: 480px;
+    background-color:black;
+    position: fixed;
+    bottom: 0;
+    width: 40%;
+    padding-left: 80px;
+   
+    }
+    #menu-bar{
+      margin-left: -50%;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  
+    }
+   
+    .navbar a:hover{
+      background: transparent;
+      background:rgb(48, 45, 45);
+      border-radius: 30px;
+    }
+    
+    .navbar a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    #reserve {
+      background-color: rgb(117, 113, 113);
+      border-radius: 30px;
+      padding: 20px 20px 20px 20px; 
+    }
+    
+    #reserve a:hover{
+      background-color: black;
+    }
+    #whatsapp {
+      position:absolute;
+      background-color: rgb(15, 14, 14);
+      border-radius: 80px;
+      padding: 30px;
+      margin-top: 380px;
+      margin-left: 135%;
+      bottom: 4%;
+      right: 3%;
+    }
+    
+    

@@ -1,0 +1,133 @@
+.menu-kitisuru-text{
+  background-image: url(Images/scarf\ anokle.jpeg);
+  height: 942px;
+  background-size: cover;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+.food-menu{
+  color: white;
+padding-top: 5%;
+padding-left: 15%;
+font-size: 30px;
+text-align: center;
+}
+#kitisuru-logo{
+  padding-left: 35%;
+}
+.food-menu h1{
+  color: rgb(216, 24, 24);
+ 
+}
+.different-menu h3{
+  color: rgb(224, 20, 20);
+  font-size: 25px;
+}
+.food-head h3{
+  color: rgb(224, 20, 20);
+  font-size: 25px;
+}
+.drink-head h3{
+  color: rgb(224, 20, 20);
+  font-size: 25px;
+}
+.navbar {
+  background-color:black;
+  position: fixed;
+  bottom: 0;
+  width: 50%;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 40px;
+margin-bottom: 55px;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+#reserve {
+  background-color: rgb(117, 113, 113);
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px; 
+}
+
+#reserve a:hover{
+  color: black;
+}
+.navbar a:hover{
+  background: transparent;
+  background:rgb(48, 45, 45);
+  border-radius: 30px;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+#whatsapp{
+  position: relative;
+  left: 50%;
+  background-color: black;
+  border-radius: 80px;
+padding: 30px;
+margin-top: 700px;
+margin-left: 750px;
+
+}
+
+.both-page{
+  display: flex;
+}
+.right-side{
+  background-color: black;
+  width: 50%;
+  padding-left: 40px;
+  padding-top: 40px;
+  overflow: auto;
+  height: 902px;
+}
+.second-navbar{
+ margin-left:190px;
+  font-size: 120%;
+  margin-bottom: 70px;
+}
+.second-navbar a{
+  color: gray;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.second-navbar a:hover{
+  background: transparent;
+  border-radius: 30px;
+  color:rgb(158, 117, 40);
+}
+
+.menu-list{
+ 
+  color: white;
+ 
+  
+}
+.breakfast{
+  display: flex;
+  gap: 550px;
+}
+#coffee{
+  color: orange;
+}
+.food{
+  display: flex;
+  gap: 550px;
+}
+.drinks{
+  display: flex;
+  gap: 600px;
+}

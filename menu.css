@@ -1,0 +1,200 @@
+body {
+  overflow: hidden;
+}
+
+.menu-pictures {
+  position: relative;
+  display: flex;
+  width: 100%;
+
+}
+
+#logo-img {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  width: 15%;
+}
+
+.social-media {
+  width: 5%;
+  display: flex;
+  margin-left: 90%;
+  right: 1%;
+  top: 4%;
+  gap: 20%;
+  z-index: 10;
+  position: absolute;
+
+  a {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+  }
+}
+
+#media {
+  font-size: 13px;
+  padding: 10px;
+  display: flex;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 50%;
+
+
+}
+
+.menu-text {
+  display: flex;
+
+}
+
+.menu-kitisuru {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(Images/anokle\ second-home1.jpg);
+  background-repeat: no-repeat;
+  height: 660px;
+  width: 30%;
+  color: white;
+  padding-left: 22%;
+  padding-top: 16%;
+  font-size: 35px;
+  line-height: 30px;
+  
+}
+
+
+.menu-kitisuru a {
+  text-decoration: none;
+  color: white;
+}
+
+#karibu {
+  color: rgb(250, 16, 16);
+}
+
+.menu-kilimani {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(Images/menu-img.jpg);
+  background-repeat: no-repeat;
+  height: 660px;
+  width: 30%;
+  color: white;
+  padding-left: 22%;
+  padding-top: 16%;
+  font-size: 35px;
+  line-height: 30px;
+  background-size: cover;
+
+}
+
+.menu-kilimani a {
+  text-decoration: none;
+  color: white;
+}
+
+#dicover {
+  color: rgb(250, 16, 16);
+
+}
+
+.navbar {
+  
+  border-radius: 40px;
+  position: absolute;
+  position: fixed;
+  top: 90vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  height: 50px;
+
+  bottom: 0;
+  width: 39%;
+  
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.navbar a:hover {
+  background: transparent;
+  background: rgb(48, 45, 45);
+  border-radius: 30px;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#reserve {
+  background-color: rgb(117, 113, 113);
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px;
+}
+
+#reserve a:hover {
+  color: black;
+}
+
+#whatsapp {
+  position: relative;
+  left: 50%;
+  background-color: black;
+  border-radius: 80px;
+  padding: 30px;
+  margin-top: 800px;
+  margin-left: -64%;
+
+
+}
+
+@media only screen and (max-width:430px){
+  .menu-pictures{
+  
+  }
+
+  .menu-text{
+    flex-direction: column;
+    width: 100vh;
+    
+  }
+  .menu-kilimani{
+
+    p{
+      font-size: 10px;
+    }
+  }
+  #logo-img{
+
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+
+  }
+  .navbar {
+    position: absolute;
+    top: 50vh;
+    left: 30vh;
+    height: 30px;
+  }
+  #reserve{
+    position: absolute;
+    top: 10%;
+    left: 5vh;
+    height: 30px;
+  }
+  #dicover{
+    font-size: small;
+  }
+  
+}
