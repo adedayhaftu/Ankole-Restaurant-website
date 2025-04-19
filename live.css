@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
 
     background-image: url(Images/dram.jpg);
@@ -8,148 +8,170 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
 }
-.both{
+
+.both {
     display: flex;
     margin-left: 190px;
-   
+
 }
-.live-right{
+
+.live-right {
     margin-top: 10px;
     font-size: 30px;
     line-height: 30px;
-    h1{
+
+    h1 {
         color: rgb(224, 23, 23);
         margin-left: 200px;
     }
-    p{
+
+    p {
         margin-left: 200px;
         margin-top: 180px;
         color: white;
     }
-   
+
 }
-#live-logo{
+
+#live-logo {
     width: 250px;
     margin-left: 140px;
     margin-top: 70px;
 }
-.live-images{
-margin-left: 20%;
-text-decoration: none;
-overflow: auto;
-height: 980px;
-a{
+
+.live-images {
+    margin-left: 20%;
     text-decoration: none;
-}
-h2{
-    color: white;
-}
+    overflow: auto;
+    height: 980px;
+
+    a {
+        text-decoration: none;
+    }
+
+    h2 {
+        color: white;
+    }
 
 }
+
 #first-image {
     width: 400px;
     height: 360px;
     border-radius: 30px;
     margin-bottom: 40px;
 }
-#second-image{
+
+#second-image {
     width: 400px;
     height: 360px;
     border-radius: 30px;
     margin-bottom: 40px;
 }
-#third-image{
+
+#third-image {
     width: 400px;
     height: 360px;
     border-radius: 30px;
     margin-bottom: 40px;
 }
-.first{
-    
+
+.first {
+
     display: flex;
-    p{
+
+    p {
         color: rgb(221, 19, 19);
-       
+
     }
 }
-.second{
-    display: flex;
-    p{
-        color: rgb(221, 19, 19);
-    }
-}
-.third{
+
+.second {
     display: flex;
     p{
         color: rgb(221, 19, 19);
     }
 }
-.text-one{
-margin-top: 150px;
-margin-left: 40px;
-font-size: 20px;
+
+.third {
+    display: flex;
+
+    p {
+        color: rgb(221, 19, 19);
+    }
 }
-.text-second{
+
+.text-one {
     margin-top: 150px;
     margin-left: 40px;
     font-size: 20px;
 }
-.text-third{
+
+.text-second {
     margin-top: 150px;
     margin-left: 40px;
     font-size: 20px;
 }
+
+.text-third {
+    margin-top: 150px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
 .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 40px;
     margin-bottom: 55px;
     margin-left: 30px;
-    background-color:black;
+    background-color: black;
     position: fixed;
     bottom: 0;
     width: 40%;
     padding-left: 80px;
-   
-   
-    }
-    
-    #menu-bar{
-      margin-left: -50%;
-    }
-    .navbar a {
-      float: left;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-  
-    }
-   
-    .navbar a:hover{
-      background: transparent;
-      background:rgb(48, 45, 45);
-      border-radius: 30px;
-    }
-    
-    .navbar a.active {
-      background-color: #04AA6D;
-      color: white;
-    }
-    #reserve {
-      background-color: rgb(117, 113, 113);
-      border-radius: 30px;
-      padding: 20px 20px 20px 20px; 
-    }
-    
-    #reserve a:hover{
-      background-color: black;
-    }
-   
-  #whatsapp {
-    position:absolute;
+
+
+}
+
+#menu-bar {
+    margin-left: -50%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.navbar a:hover {
+    background: transparent;
+    background: rgb(48, 45, 45);
+    border-radius: 30px;
+}
+
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#reserve {
+    background-color: rgb(117, 113, 113);
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+}
+
+#reserve a:hover {
+    background-color: black;
+}
+
+#whatsapp {
+    position: absolute;
     background-color: rgb(15, 14, 14);
     border-radius: 80px;
     padding: 30px;
@@ -157,4 +179,177 @@ font-size: 20px;
     margin-left: 135%;
     bottom: 4%;
     right: 3%;
-  }
+}
+
+@media only screen and (max-width:430px) {
+    body {
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 10px;
+        background-position: center;
+        background-size: cover;
+        position: static;
+    }
+
+    .both {
+        align-items: center;
+        margin-left: 0;
+        flex-direction: column;
+
+    }
+
+    .live-right {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+
+        h1 {
+            font-size: 24px;
+            margin-left: 0;
+        }
+
+        p {
+            margin-left: 0;
+            margin-top: 10px;
+
+        }
+
+    }
+
+    #live-logo {
+        width: 120px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .live-images {
+        margin-left: 0;
+        padding: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    #first-image {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+
+    #second-image {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+
+    #third-image {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+
+    .first {
+
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .second {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .third {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .text-one {
+        margin-top: 10px;
+        margin-left: 0;
+        font-size: 16px;
+        text-align: center;
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .text-second {
+        margin-top: 10px;
+        margin-left: 0;
+        font-size: 16px;
+        text-align: center;
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .text-third {
+        margin-top: 10px;
+        margin-left: 0;
+        font-size: 16px;
+        text-align: center;
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+
+    .navbar {
+        padding: 10px;
+        bottom: 10px;
+        width: 90%;
+        padding-left: 0;
+        border-radius: 20px;
+        display: flex;
+        margin-left: 5%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .navbar a {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+
+    #reserve {
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    #whatsapp {
+        font-size: 24px;
+        padding: 15px;
+        position: fixed;
+        border-radius: 50px;
+        margin-top: 0;
+        margin-left: 0;
+        bottom: 15%;
+        right: 5%;
+
+    }
+}

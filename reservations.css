@@ -1,8 +1,8 @@
-body{
-  margin: auto; 
-  overflow: hidden; 
+body {
+  margin: auto;
+  overflow: hidden;
 }
-#reservation-image{
+#reservation-image {
   height: 100vh;
   width: 50%;
   filter: brightness(0.5);
@@ -10,238 +10,289 @@ body{
   z-index: -1;
 }
 
-.right-text{
-/* margin-top: -50%; */
-width: 50%;
-height: 100vh;
-/* position: absolute; */
-/* margin-left: 10%; */
-line-height: 10px;
-align-items: center;
-text-align: center;
-padding: 2% 0;
-p{
-  color: white;
-  /* margin-left: 205px; */
-  font-size: 35px;
-  /* margin-top: 150px; */
+.right-text {
+  width: 50%;
+  height: 100vh;
+  line-height: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 2% 0;
+
+  p {
+    color: white;
+    font-size: 35px;
+  }
+
+  h1 {
+    color: rgb(222, 28, 28);
+    font-size: 50px;
+    margin-top: 70px;
+  }
 }
-h1{
-  color: rgb(222, 28, 28);
-  font-size: 50px;
-  /* margin-left: 80px; */
-  margin-top: 70px;
-}
-}
-#reservation-logo{
+
+#reservation-logo {
   width: 200px;
   margin-bottom: 190px;
-  /* margin-top: 30px; */
-  /* margin-left:160px; */
 }
-.both{
+
+.both {
   display: flex;
   width: 100%;
- 
+
 }
-.box{
+
+.box {
   padding: 2.5%;
-  padding-bottom:4% ;
+  padding-bottom: 4%;
   border: 1px solid rgb(32, 31, 31);
   width: 77%;
   box-shadow: 0px 9px #0E0E0E;
 }
-.form{
+
+.form {
   padding-left: 2%;
   width: 50%;
   background-color: black;
-  /* overflow:hidden; */
-  /* overflow-y: scroll; */
-  label{
-      color: white;
-  }
-   
-}
-label{
-    margin-bottom: 2%;
-}
-input{
-    color: white;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    color-scheme: dark;
-    height: 57px;
-    width :680px;
-    background-color: black;
-    color: white;
-    border: 1px solid rgb(71, 68, 68);
-}
-#inputClickable:focus{
-    outline: 1px solid rgb(43, 211, 43);
-}
-.options a{
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
- }
- .optionsMenu{
-    a:hover{
-        color: gray ;
- }
-    left: 22%;
-    transform: translate(-50%, -50%);
-    right: 0;
-    border: none;
-    text-align: center;
-    bottom: 3%;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
-    i{
-       color: gray;
-    }
-    display: flex;
-    gap: 3.2%;
-    width: 41%;
-    border: solid black 1px;
-    height: 79px;
-    color: black;
-    border-radius: 39px;
-    justify-content: center;
-    background-color: rgb(14, 13, 13);
-  a{
-    text-decoration: none;
-    font-size: 21px;
-    color: white;
-  }
-}
-.reserve{
-    font-size: 17px;
-    color: white;
-text-align: center;
-background-color:grey ;
-border: 37px;
-border-radius: 24px;
-width: 140px;
-height: 49px;
-}
-.reserve:hover{
-background-color: white;
-border-radius: 24px;
-color: black;
-}
-.submit
-{
-    font-size: 20px;
-    color-scheme: dark;
-    height: 80px;
-    width :688px;
-    border-radius: 21px;
-    background-color:  rgb(231, 192, 120);
-    color: black;
-    border: 1px solid rgb(212, 160, 62);
-}
-.submit:hover{
-    background-color: rgb(151, 129, 104);
-    border-radius: 24px;
-    color: white;
-      margin-left: 51%;
-  /* padding-left: 2%; */
-  width: 100vh;
+
   overflow:hidden;
-  /* overflow-y: scroll; */
-  label{
-      color: white;
+  overflow-y: scroll;
+  label {
+    color: white;
   }
-  padding-top: 8%;
-  width: 50%;
-   background-color: black;
+
 }
-label{
+
+label {
   margin-bottom: 2%;
 }
-input{
+
+input {
   color: white;
   margin-top: 1%;
   margin-bottom: 1%;
   color-scheme: dark;
   height: 57px;
-  width :680px;
+  width: 680px;
   background-color: black;
   color: white;
   border: 1px solid rgb(71, 68, 68);
 }
-#inputClickable:focus{
+
+#inputClickable:focus {
   outline: 1px solid rgb(43, 211, 43);
 }
-.submit
-{
+
+.submit {
   font-size: 20px;
   color-scheme: dark;
   height: 80px;
-  width :688px;
+  width: 688px;
   border-radius: 21px;
-  background-color:  rgb(231, 192, 120);
+  background-color: rgb(231, 192, 120);
   color: black;
   border: 1px solid rgb(212, 160, 62);
 }
-.submit:hover{
+
+.submit:hover {
   background-color: rgb(151, 129, 104);
   border-radius: 24px;
   color: white;
-  }
-.navbar {
-    background-color: rgb(15, 14, 14);
-    position: fixed;
-    bottom: 0;
-    width: 40%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 40px;
-    margin-bottom: 35px;
-    margin-left: 28%;
-  
-  }
-  
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  
-  }
-  
-  #reserve {
-    background-color: rgb(117, 113, 113);
-    border-radius: 30px;
-    padding: 20px 20px 20px 20px;
-  }
-  
-  #reserve a:hover {
-    color: black;
-  }
-  
-  .navbar a:hover {
-    background: transparent;
-    background: rgb(48, 45, 45);
-    border-radius: 30px;
-  }
-  
-  .navbar a.active {
-    background-color: #04AA6D;
+  margin-left: 51%;
+  width: 100vh;
+  overflow: hidden;
+  label {
     color: white;
   }
-  
-  #whatsapp {
-    position:absolute;
-    background-color: rgb(15, 14, 14);
-    border-radius: 80px;
-    padding: 30px;
-    margin-top: 400px;
-    margin-left: 135%;
-    bottom: 4%;
-    right: 3%;
+
+  padding-top: 8%;
+  width: 50%;
+  background-color: black;
+}
+
+label {
+  margin-bottom: 2%;
+}
+
+input {
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color-scheme: dark;
+  height: 57px;
+  width: 680px;
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(71, 68, 68);
+}
+
+#inputClickable:focus {
+  outline: 1px solid rgb(43, 211, 43);
+}
+.navbar {
+  background-color: rgb(15, 14, 14);
+  position: fixed;
+  bottom: 0;
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 40px;
+  margin-bottom: 35px;
+  margin-left: 28%;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+#reserve {
+  background-color: rgb(117, 113, 113);
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px;
+}
+
+#reserve a:hover {
+  color: black;
+}
+
+.navbar a:hover {
+  background: transparent;
+  background: rgb(48, 45, 45);
+  border-radius: 30px;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#whatsapp {
+  position: absolute;
+  background-color: rgb(15, 14, 14);
+  border-radius: 80px;
+  padding: 30px;
+  margin-top: 400px;
+  margin-left: 135%;
+  bottom: 4%;
+  right: 3%;
+}
+
+@media only screen and (max-width:430px) {
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
   }
+  #reservation-image {
+    height: 35vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .right-text {
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 30px 0;
+    p {
+    margin-top: 35px;
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 28px;
+      margin-top: 35px;
+      font-size: 40px;
+    }
+  }
+  
+  #reservation-logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .both {
+   flex-direction: column;
+    width: 100%;
+  align-items: center;
+  }
+  
+  .box {
+    padding: 2.5%;
+    padding: 20px;
+    border: 1px solid rgb(32, 31, 31);
+    width: 90%; 
+    border: 1px solid white;
+    margin: 0 auto;
+    box-shadow: 0px 5px #1e1d1d;
+ }
+  .form {
+    position: absolute;
+    top: 35%;
+    padding-left: 0;
+    width: 100%;
+    background-color: black;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  input {
+
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .submit {
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .navbar {
+    border-radius: 20px;
+    bottom: 60px;
+    margin-left: 5%;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    position: fixed;
+  }
+  .navbar a {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  #reserve {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 12px;
+  }
+  #whatsapp {
+    font-size: 24px;
+    padding: 15px;
+    position: fixed;
+    border-radius: 50px;
+    margin-top: 0;
+    margin-left: 0;
+    bottom: 20%;
+    right: 5%;
+}
+}
