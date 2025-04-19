@@ -60,7 +60,7 @@ body {
   padding-top: 16%;
   font-size: 35px;
   line-height: 30px;
-  
+
 }
 
 
@@ -98,7 +98,7 @@ body {
 }
 
 .navbar {
-  
+
   border-radius: 40px;
   position: absolute;
   position: fixed;
@@ -110,7 +110,7 @@ body {
 
   bottom: 0;
   width: 39%;
-  
+
 
 }
 
@@ -158,132 +158,111 @@ body {
 
 }
 
-@media only screen and (max-width:430px){
-  body{
+@media only screen and (max-width:430px) {
+  body {
     overflow-x: hidden;
+    overflow-y: auto;
   }
   .social-media {
-    width: 200%;
-   
-    margin-left: 75%;
-    right: 1%;
-    top: 25%;
-    gap: 10%;
-  
-  
-  
+    right: 65px;
+    gap: 50%;
   }
-  
+
   #media {
     font-size: 10px;
     padding: 8px;
-    
-  
-  
   }
-  
+
   .menu-text {
- flex-direction: column;
- width: 100%;
- height: auto;
-  
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
   }
-  
+
   .menu-kitisuru {
-  
     height: 300px;
     width: 100%;
-   
-    padding-left: 10%;
-    padding-top: 20%;
+    padding-left: 38%;
+    padding-top: 30%;
     font-size: 20px;
     line-height: 25px;
     background-size: cover;
     background-position: center;
   }
-  
-  
+
+
   .menu-kitisuru p {
-   font-size: 12px;
+    font-size: 12px;
   }
-  
+
   #karibu {
- font-size: 14px;
+    font-size: 14px;
   }
-  
+
   .menu-kilimani {
-   
+
     height: 300px;
     width: 100%;
-   
-    padding-left: 10%;
-    padding-top: 20%;
+
+    padding-left: 38%;
+    padding-top: 30%;
     font-size: 20px;
     line-height: 25px;
     background-size: cover;
-  background-position: center;
+    background-position: center;
   }
-  
+
   .menu-kilimani p {
-   font-size: 12px;
+    font-size: 12px;
   }
-  
+
   #dicover {
-   font-size: 14px;
-  
+    font-size: 14px;
+
   }
-  #logo-img{
-    top:15%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    width: 30%;
-  }
-  
-  .navbar {
-    
-    border-radius: 20px;
-    top: auto;
+
+  #logo-img {
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 30%;
+  }
 
+  .navbar {
+    border-radius: 20px;
+    top: auto;
+    left: 43%;
+    transform: translate(-50%, -50%);
     height: 40px;
-  transform: translateX(-50%);
-    bottom: 10px;
-    width: 90%;
+    transform: translateX(-50%);
+    bottom: 400px;
+    width: 80%;
+  }
 
-    
-  
-  }
-  
   .navbar a {
-  
     padding: 10px 8px;
-  
     font-size: 12px;
-  
   }
-  
- 
-  
+
   #reserve {
-  font-size: 12px;
+    font-size: 12px;
     border-radius: 20px;
     padding: 10px;
   }
 
-  
+
   #whatsapp {
     position: fixed;
     left: 50%;
- 
     padding: 30px;
     margin-top: 0px;
     margin-left: 0%;
-  left: auto;
-  right: 20px;
-  bottom: 70px;
-  font-size: 24px;
-  padding: 15px;
-  
+    left: auto;
+    right: 160px;
+    bottom: 440px;
+    font-size: 15px;
+    padding: 15px;
+
   }
 }

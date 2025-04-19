@@ -205,22 +205,38 @@ body {
     font-size: 30px;
   }
 
+ 
   .navbar {
-    padding-left: 2px;
-    margin-left: -10px;
+    border-radius: 20px;
+    bottom: 60px;
+    margin-left: 5%;
+    width: 90%;
+    padding: 10px;
     display: flex;
-    width: 490px;
-    padding: auto;
-
-    height: 40px;
-
-
-    a {
-      font-size: 8px;
-      gap: 0%;
-
-    }
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    position: fixed;
   }
+  .navbar a {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  #reserve {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 12px;
+  }
+  #whatsapp {
+    font-size: 24px;
+    padding: 15px;
+    position: fixed;
+    border-radius: 50px;
+    margin-top: 0;
+    margin-left: 0;
+    bottom: 20%;
+    right: 5%;
+}
 }
 
 @media only screen and (min-width:769px) and (max-width:1024px){
